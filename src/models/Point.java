@@ -1,11 +1,11 @@
 package models;
 
 public class Point {
-    private double x;
-    private double y;
+    private final double x;
+    private final double y;
 
     //Constructor to initialize a point with given x and y coordinates.
-    public Point(){
+    public Point(double x, double y){
         this.x = x;
         this.y = y;
     }
