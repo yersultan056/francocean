@@ -11,7 +11,7 @@ public class Point {
     }
 
     //Calculate and return the distance from the current point to the destination point.
-    public double distance(Point dest) {
+    public double distanceTo(Point dest) {
         double dx = this.x - dest.x;
         double dy = this.y - dest.y;
         return Math.sqrt(dx * dx + dy * dy);
